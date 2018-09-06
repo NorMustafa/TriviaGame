@@ -1,0 +1,62 @@
+html, body{
+  height:100%;
+}
+
+
+
+#wrapper{
+  margin:2.5% auto;
+  background-color: rgba(121, 40, 252, 0.83);
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
+}
+
+#subwrapper{
+  position: relative;
+}
+button{
+  display:block;
+  width:55%;
+  height:28%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 50px;;
+}
+
+img{
+  height:200px;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif
+  font-size: 6.5em;
+  font-weight: bold;
+  color:blue;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid black;
+  background: yellow;
+}
+
+
+
+button:hover {
+  border:4px solid black;
+  background: yellow;
+}
